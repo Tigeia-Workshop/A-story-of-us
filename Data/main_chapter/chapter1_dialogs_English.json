@@ -1,17 +1,14 @@
 {
     "compiler": {
-        "compiledAt": 1707259323,
-        "reversion": 0,
+        "compiledAt": 1717107844,
+        "reversion": 2,
         "version": 2
     },
-    "dialogs": {
+    "dialogues": {
         "dialog_example": {
             "head": {
                 "background_image": "bg1.png",
                 "background_music": "bgm1.ogg",
-                "comments": [
-                    "section 1"
-                ],
                 "contents": [
                     "This is our world... The place we live...",
                     "A world that hates the witches, and their magic."
@@ -19,7 +16,10 @@
                 "next": {
                     "target": "~01",
                     "type": "default"
-                }
+                },
+                "notes": [
+                    "section 1"
+                ]
             },
             "~01": {
                 "background_image": "bg1.png",
@@ -65,9 +65,6 @@
                     "maria.png",
                     "lucy.png&silent"
                 ],
-                "comments": [
-                    "section 2"
-                ],
                 "contents": [
                     "Lucy, are you ready to go out?",
                     "We have a lot of work that needs to be done today!"
@@ -76,7 +73,10 @@
                 "next": {
                     "target": "~05",
                     "type": "default"
-                }
+                },
+                "notes": [
+                    "section 2"
+                ]
             },
             "~05": {
                 "background_image": "bg2.png",
@@ -218,9 +218,6 @@
                     "maria.png&silent",
                     "lucy.png"
                 ],
-                "comments": [
-                    "section 3"
-                ],
                 "contents": [
                     "I miss the sunlight so much!"
                 ],
@@ -228,7 +225,10 @@
                 "next": {
                     "target": "~14",
                     "type": "default"
-                }
+                },
+                "notes": [
+                    "section 3"
+                ]
             },
             "~14": {
                 "background_image": "bg3.png",
